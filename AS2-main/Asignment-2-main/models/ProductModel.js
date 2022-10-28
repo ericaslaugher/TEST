@@ -6,7 +6,8 @@ var ProductSchema = new mongoose.Schema({
     origin: String,
     image: String,
     price: String,
-    material: String
+    material: String,
+    scale:String //this is a test//
 
 })
 
