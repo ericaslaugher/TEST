@@ -17,14 +17,14 @@
       <th>Menu</th>
    </tr>
    <tr>
-      <th colspan="6">
+      <th colspan="7"> {{!this is a test}}
          <select class="form-control" onchange="window.location.href=this.value">
             <option value="">Sort by name</option>
             <option value="/product/sort/asc">Ascending</option>
             <option value="/product/sort/desc">Descending</option>
          </select>
       </th>
-      <th colspan="1">
+      <th colspan="7">  {{!this is a test}}
          <form action="/product/search" method="post">
             <div class="form-group">
                <input class="form-control" type="search" name="name" placeholder="Search by name">
@@ -37,6 +37,7 @@
       <td>{{name}}</td>
       <td>{{origin}}</td>
       <td>{{material}}</td>
+      <td>{{scale}}</td>      {{!this is a test}}
       <td>
          <a href="/product/detail/{{_id}}">
             <img src="{{image}}" width="100" height="100">
