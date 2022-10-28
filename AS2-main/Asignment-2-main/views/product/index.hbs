@@ -1,6 +1,6 @@
 <table class="table table-bordered table-success p-4 mt-3 mb-3 text-center">
    <tr>
-      <th class="text-primary" colspan="7">lego toys list</th> {{!this is a test}}
+      <th class="text-primary" colspan="6">lego toys list</th> {{!this is a test}}
       <th>
          <a class="btn btn-primary" href="/product/add">ADD</a>
          <a class="btn btn-success" href="/product/drop"
@@ -11,11 +11,12 @@
       <th>Name</th>
       <th>Origin</th>
       <th>Material</th>
+      <th>Scale</th> {{!this is a test}}
       <th>Image</th>
       <th>Price</th>
       <th>Status</th>
       <th>Menu</th>
-      <th>Scale</th> {{!this is a test}}
+      
    </tr>
    <tr>
       <th colspan="6"> 
@@ -38,6 +39,7 @@
       <td>{{name}}</td>
       <td>{{origin}}</td>
       <td>{{material}}</td>
+      <td>{{scale}} </td>      {{!this is a test}}
       
       <td>
          <a href="/product/detail/{{_id}}">
@@ -46,7 +48,7 @@
       </td>
       <td>{{price}}</td>
       <td>{{status}}</td>
-     
+      
 
       <td>
          <a class="btn btn-warning" href="/product/edit/{{_id}}">EDIT</a>
